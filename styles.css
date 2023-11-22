@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+.container{
+		display: flex; justify-content:space-evenly; align-items: center; 
+	padding:20px;
+	border:3px solid black;
+	border-radius:50px;
+	background-color:rgb(211,211,211);
+}
+
+.green{
+	display: flex; justify-content: center; align-items: center; 
+height:100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+	
+}
+
+.yellow{
+	display: flex; justify-content: center; align-items: center; 
+	 height: 100px;
+  width: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+.red{
+	display: flex; justify-content: center; align-items: center; 
+	 height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
